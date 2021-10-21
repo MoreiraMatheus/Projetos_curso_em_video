@@ -1,0 +1,6 @@
+nome = input('me diga seu nome completo: ').strip().upper()
+print('seu nome é: {}'.format(nome.title()))
+nome = nome.split()
+ult = len(nome)
+print('seu primeiro nome é: {}'.format(nome[0].capitalize()))
+print('seu ultimo nome é: {}'.format(nome[ult - 1].capitalize()))

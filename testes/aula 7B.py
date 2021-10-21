@@ -1,0 +1,6 @@
+n1 = int(input('me diga um numero: '))
+n2 = int(input('me diga outro numero: '))
+print('bem, como esse programa é apenas um teste para testar conhecimentos vou encher linguiça para que ', end='')
+print('a linha fique bem grande antes de passar para a linha debaixo')
+print('a divisão desses numeros é: {:.2f}'.format(n1/n2))
+print('o resto da divisão será: {}'.format(n1//n2))

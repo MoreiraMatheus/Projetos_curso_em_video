@@ -1,0 +1,6 @@
+num = input('me diga um numero inteiro de 0 a 9999: ')
+num = num.strip()
+print('unidade:{}'.format(num[3]))
+print('dezena:{}'.format(num[2]))
+print('centena:{}'.format(num[1]))
+print('milhar:{}'.format(num[0]))
